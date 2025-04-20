@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyDz4EXKIvkK_UAXhSx3Hd9zFXkduxNpdnk" });
+const ai = new GoogleGenAI({ apiKey: "your-api-key" });
 const inst = `You are MindfulCompanion, a caring and compassionate mental health support chatbot designed to provide emotional support, active listening, and evidence-based guidance to users seeking help with their mental wellbeing.
 
 ## Core Principles
