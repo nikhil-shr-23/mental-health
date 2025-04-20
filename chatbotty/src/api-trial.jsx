@@ -58,7 +58,7 @@ export default function TrialComponent() {
   useEffect(() => {
     async function fetchAIResponse() {
       const response = await ai.models.generateContent({
-        model: "gemini-2.0-flash",
+        model: "gemini-2.0-flash-lite",
         contents: ` ${send} ,${inst} (dont use blod letters write all leters in plain format) dont include it in output   `,
       });
 
